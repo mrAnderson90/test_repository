@@ -21,5 +21,8 @@
     "surge": "^0.23.1"
   },
   "author": "mrAnderson",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jstransformer-markdown-it": "^3.0.0"
+  }
 }
