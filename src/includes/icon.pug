@@ -1,0 +1,30 @@
+-
+	const icons = {
+		free: [
+			{
+				name: 'robot',
+				url: './icons/robot.svg',
+			},
+			{
+				name: 'hexlet',
+				url: './icons/hexlet.svg',
+			},
+		],
+		premium: [
+			{
+				name: 'cat',
+				url: './icons/premium/cat.svg',
+			},
+			{
+				name: 'dog',
+				url: './icons/premium/dog.svg',
+			},
+		],
+	}
+
+each catalog, category in icons
+	h2= category
+	ul
+		each icon in catalog
+			li
+				a(href=icon.url)= icon.name

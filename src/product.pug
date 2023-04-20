@@ -1,0 +1,13 @@
+- const title = 'Страница продукта';
+
+doctype html
+html(lang='ru')
+	head
+		include includes/head.pug
+	
+	body
+		header
+			include:markdown-it ./includes/header.md
+
+		main 
+			include ./includes/main.pug

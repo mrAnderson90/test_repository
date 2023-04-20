@@ -1,0 +1,11 @@
+mixin table(thead, tbody)
+  table
+    thead
+      tr
+        each data in thead
+          th= data
+    tbody
+      each row in tbody
+        tr
+          each cell in row
+            td= cell

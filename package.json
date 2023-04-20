@@ -10,6 +10,7 @@
   "main": "",
   "devDependencies": {
     "htmlhint": "^1.1.0",
+    "power-assert": "^1.6.1",
     "pug-cli": "^1.0.0-alpha6",
     "sass": "^1.58.3",
     "stylelint": "^14.2.0",
